@@ -1,0 +1,15 @@
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\bin\Debug\Ninject.dll
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\bin\Debug\nunit.framework.dll
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\bin\Debug\Rhino.Mocks.dll
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\bin\Debug\Ninject.xml
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\bin\Debug\nunit.framework.xml
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\bin\Debug\Rhino.Mocks.xml
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb

@@ -1,0 +1,8 @@
+D:\TRAINING\MVC Projects\ProMVCFramework\NinjectDemo\NinjectDemo\bin\Debug\NinjectDemo.exe.config
+D:\TRAINING\MVC Projects\ProMVCFramework\NinjectDemo\NinjectDemo\bin\Debug\NinjectDemo.exe
+D:\TRAINING\MVC Projects\ProMVCFramework\NinjectDemo\NinjectDemo\bin\Debug\NinjectDemo.pdb
+D:\TRAINING\MVC Projects\ProMVCFramework\NinjectDemo\NinjectDemo\bin\Debug\Ninject.dll
+D:\TRAINING\MVC Projects\ProMVCFramework\NinjectDemo\NinjectDemo\bin\Debug\Ninject.xml
+D:\TRAINING\MVC Projects\ProMVCFramework\NinjectDemo\NinjectDemo\obj\Debug\NinjectDemo.exe
+D:\TRAINING\MVC Projects\ProMVCFramework\NinjectDemo\NinjectDemo\obj\Debug\NinjectDemo.pdb
+D:\TRAINING\MVC Projects\ProMVCFramework\NinjectDemo\NinjectDemo\obj\Debug\NinjectDemo.csprojResolveAssemblyReference.cache

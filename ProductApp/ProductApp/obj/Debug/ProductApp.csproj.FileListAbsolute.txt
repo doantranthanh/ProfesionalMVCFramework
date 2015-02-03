@@ -1,0 +1,10 @@
+D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\bin\Debug\ProductApp.exe.config
+D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\bin\Debug\ProductApp.exe
+D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\bin\Debug\ProductApp.pdb
+D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\obj\Debug\ProductApp.exe
+D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\obj\Debug\ProductApp.pdb
+D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\bin\Debug\Ninject.dll
+D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\bin\Debug\nunit.framework.dll
+D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\bin\Debug\Ninject.xml
+D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\bin\Debug\nunit.framework.xml
+D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\obj\Debug\ProductApp.csprojResolveAssemblyReference.cache
