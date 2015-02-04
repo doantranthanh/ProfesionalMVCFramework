@@ -28,3 +28,33 @@ D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.UnitTests\bin\D
 D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.csprojResolveAssemblyReference.cache
 D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.dll
 D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.pdb
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\SportsStore.UnitTests.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\SportsStore.UnitTests.pdb
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\nunit.framework.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\Rhino.Mocks.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\SportsStore.Domain.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\SportsStore.WebUI.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.Helpers.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.Mvc.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.Razor.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\EntityFramework.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\Ninject.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\SportsStore.Domain.pdb
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\SportsStore.WebUI.pdb
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\nunit.framework.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\Rhino.Mocks.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.Helpers.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.Mvc.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.Razor.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\EntityFramework.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\bin\Debug\Ninject.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.csprojResolveAssemblyReference.cache
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.pdb

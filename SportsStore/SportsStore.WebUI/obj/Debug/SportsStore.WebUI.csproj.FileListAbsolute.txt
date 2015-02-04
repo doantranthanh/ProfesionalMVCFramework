@@ -28,3 +28,32 @@ D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.WebUI\bin\Syste
 D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
 D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
 D:\TRAINING\MVC Projects\ProMVCFramework\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\nunit.framework.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\Rhino.Mocks.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\nunit.framework.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\Rhino.Mocks.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb

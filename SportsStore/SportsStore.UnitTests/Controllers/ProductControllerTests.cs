@@ -26,11 +26,11 @@ namespace SportsStore.WebUI.Controllers.Tests
         {
             _repository = MockRepository.GenerateStub<IProductRepository>();
             _products = new Product[] {
-                new Product {ProductID = 1, Name = "P1"},
-                new Product {ProductID = 2, Name = "P2"},
-                new Product {ProductID = 3, Name = "P3"},
-                new Product {ProductID = 4, Name = "P4"},
-                new Product {ProductID = 5, Name = "P5"}
+                new Product {ProductID = 1, Name = "P1", Category="Cat1"},
+                new Product {ProductID = 2, Name = "P2", Category="Cat2"},
+                new Product {ProductID = 3, Name = "P3", Category="Cat1"},
+                new Product {ProductID = 4, Name = "P4", Category="Cat2"},
+                new Product {ProductID = 5, Name = "P5", Category="Cat3"}
             };
         }
 
@@ -42,21 +42,24 @@ namespace SportsStore.WebUI.Controllers.Tests
             _controller = new ProductController(_repository);
             _controller.PageSize = 3;
 
-            var viewResult = _controller.List(2) as ViewResult;
+            var viewResult = _controller.List("Cat2",1) as ViewResult;
             // Act
             ProductsListViewModel result = (ProductsListViewModel) viewResult.Model;
 
             // Assert
-            IEnumerable<Product> prodArray = result.Products;
-            Assert.IsTrue(prodArray.Count() == 2);
-            Assert.AreEqual(prodArray.ElementAt(0).Name, "P4");
-            Assert.AreEqual(prodArray.ElementAt(1).Name, "P5");
+            Product[] prodArray = result.Products.ToArray();
+            Assert.AreEqual(prodArray.Length,2);
+            Assert.AreEqual(prodArray[0].Name, "P2");
+            Assert.AreEqual(prodArray[1].Name, "P4");
 
             PagingInfo pageInfo = result.PagingInfo;
-            Assert.AreEqual(pageInfo.CurrentPage, 2);
+            Assert.AreEqual(pageInfo.CurrentPage, 1);
             Assert.AreEqual(pageInfo.ItemsPerPage, 3);
             Assert.AreEqual(pageInfo.TotalItems, 5);
             Assert.AreEqual(pageInfo.TotalPages, 2);
+
+            Assert.AreEqual(prodArray[0].Category, "Cat2");
+            Assert.AreEqual(prodArray[1].Category, "Cat2");
         }
     }
 }
