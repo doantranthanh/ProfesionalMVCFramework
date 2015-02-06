@@ -1,0 +1,15 @@
+﻿@model IEnumerable<SportsStore.WebUI.Models.Appointment>
+@{
+    ViewBag.Title = "AppointmentData";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>AppointmentData</h2>
+
+@foreach (var app in Model)
+{
+    <tr>
+        <td>@Html.DisplayFor(m => app.ClientName)</td>
+        <td>@Html.DisplayFor(m => app.Date)</td>
+    </tr>
+}

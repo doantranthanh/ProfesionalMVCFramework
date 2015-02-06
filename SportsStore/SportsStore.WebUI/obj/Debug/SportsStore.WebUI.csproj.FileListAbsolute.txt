@@ -57,3 +57,4 @@ C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.W
 C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
 C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
 C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\myprojects\ProfesionalMVCFramework\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache

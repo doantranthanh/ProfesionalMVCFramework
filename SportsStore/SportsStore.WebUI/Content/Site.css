@@ -1,5 +1,5 @@
 ﻿body { font-family: Cambria, Georgia, "Times New Roman"; margin: 0; }
-div#header DIV.title, DIV.item H3, DIV.item H4, DIV.pager A {
+div#header div.title, div.item h3, div.item h4, div.pager a {
 font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial;
 }
 div#header { background-color: #444; border-bottom: 2px solid #111; color: White; }
@@ -12,7 +12,18 @@ div.item H3 { font-size: 1.3em; margin: 0 0 .25em 0; }
 div.item H4 { font-size: 1.1em; margin:.4em 0 0 0; }
 div.pager { text-align:right; border-top: 2px solid silver;
 padding: .5em 0 0 0; margin-top: 1em; }
-div.pager A { font-size: 1.1em; color: #666; text-decoration: none;
+div.pager a { font-size: 1.1em; color: #666; text-decoration: none;
 padding: 0 .4em 0 .4em; }
-div.pager A:hover { background-color: Silver; }
-div.pager A.selected { background-color: #353535; color: White; }
+div.pager a:hover { background-color: Silver; }
+div.pager a.selected { background-color: #353535; color: White; }
+
+div#categories a
+{
+font: bold 1.1em "Arial Narrow","Franklin Gothic Medium",Arial; display: block;
+text-decoration: none; padding: .6em; color: Black;
+border-bottom: 1px solid silver;
+}
+
+div#categories a.selected { background-color: #666; color: White; }
+div#categories a:hover { background-color: #CCC; }
+div#categories a.selected:hover { background-color: #666; }

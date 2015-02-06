@@ -1,0 +1,12 @@
+﻿@model IEnumerable<MvcApp.Models.Appointment>
+@{
+    ViewBag.Title = "Ajax page";
+}
+
+@foreach (var appt in Model)
+{
+    <tr>
+        <td>@Html.DisplayFor(m => appt.ClientName)</td>
+        <td>@Html.DisplayFor(m => appt.Date)</td>
+    </tr>
+}
