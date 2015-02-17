@@ -16,6 +16,7 @@ namespace SportsStore.WebUI.Controllers.Tests
     public class CartControllerTests
     {
         private IProductRepository _repository;
+        private IOrderProcessor _orderProcessor;
         private CartController _controller;
         private Product[] _products;
 
@@ -23,6 +24,8 @@ namespace SportsStore.WebUI.Controllers.Tests
         public void SetUp()
         {
             _repository = MockRepository.GenerateStub<IProductRepository>();
+            _orderProcessor = MockRepository.GenerateMock<IOrderProcessor>();
+
             _products = new Product[] {
                 new Product {ProductID = 1, Name = "P1", Category="Apples"},    
             };
@@ -34,7 +37,7 @@ namespace SportsStore.WebUI.Controllers.Tests
             // Arrange
             _repository.Stub(x => x.Products).Return(_products.AsQueryable());
             Cart cart = new Cart();
-            _controller = new CartController(_repository);
+            _controller = new CartController(_repository, _orderProcessor);
 
             // Act
 
@@ -52,7 +55,7 @@ namespace SportsStore.WebUI.Controllers.Tests
             // Arrange
             _repository.Stub(x => x.Products).Return(_products.AsQueryable());
             Cart cart = new Cart();
-            _controller = new CartController(_repository);
+            _controller = new CartController(_repository, _orderProcessor);
 
             // Act
             RedirectToRouteResult result = _controller.AddToCart(cart, 2, "myUrl");
@@ -68,7 +71,7 @@ namespace SportsStore.WebUI.Controllers.Tests
             // Arrange
             Cart cart = new Cart();
 
-            _controller = new CartController(null);
+            _controller = new CartController(null, _orderProcessor);
 
             // Act - call the Index action method
             CartIndexViewModel result = (CartIndexViewModel)_controller.Index(cart, "myUrl").ViewData.Model;

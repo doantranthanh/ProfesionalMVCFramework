@@ -9,6 +9,7 @@ using SportsStore.Domain.Abastract;
 using Rhino.Mocks;
 using SportsStore.Domain.Entities;
 using SportsStore.Domain.Concrete;
+using System.Configuration;
 
 namespace SportsStore.WebUI.Infrastructure
 {
@@ -42,6 +43,12 @@ namespace SportsStore.WebUI.Infrastructure
 
             //ninjectKernel.Bind<IProductRepository>().ToConstant(_mockRepository);
             ninjectKernel.Bind<IProductRepository>().To<EFProductRepository>();
+
+            EmailSettings emailSettings = new EmailSettings{
+                WriteAsFile = bool.Parse(ConfigurationManager.AppSettings["Email.WriteAsFile"] ?? "false")
+            };
+
+            ninjectKernel.Bind<IOrderProcessor>().To<EmailOrderProcessor>().WithConstructorArgument("settings", emailSettings);
         }
     }
 }
