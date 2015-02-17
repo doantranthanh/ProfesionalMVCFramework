@@ -14,7 +14,7 @@ namespace SportsStore.WebUI.Controllers.Tests
     public class NavControllerTests
     {
         private IProductRepository _repository;
-        private ProductController _controller;
+        private NavController _navController;
         private Product[] _products;
 
         [SetUp()]
@@ -34,7 +34,7 @@ namespace SportsStore.WebUI.Controllers.Tests
         {
             // Arrange
             _repository.Stub(m => m.Products).Return(_products.AsQueryable());
-            NavController _navController = new NavController(_repository);
+            _navController = new NavController(_repository);
 
             // Act = get the set of categories
             string[] results = ((IEnumerable<string>)_navController.Menu().Model).ToArray();

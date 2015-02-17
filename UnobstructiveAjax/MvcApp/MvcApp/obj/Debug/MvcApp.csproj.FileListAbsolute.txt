@@ -23,3 +23,4 @@ C:\myprojects\ProfesionalMVCFramework\UnobstructiveAjax\MvcApp\MvcApp\bin\System
 C:\myprojects\ProfesionalMVCFramework\UnobstructiveAjax\MvcApp\MvcApp\bin\System.Web.WebPages.Razor.xml
 C:\myprojects\ProfesionalMVCFramework\UnobstructiveAjax\MvcApp\MvcApp\obj\Debug\MvcApp.dll
 C:\myprojects\ProfesionalMVCFramework\UnobstructiveAjax\MvcApp\MvcApp\obj\Debug\MvcApp.pdb
+C:\myprojects\ProfesionalMVCFramework\UnobstructiveAjax\MvcApp\MvcApp\obj\Debug\MvcApp.csprojResolveAssemblyReference.cache

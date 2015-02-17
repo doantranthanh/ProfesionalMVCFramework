@@ -8,3 +8,6 @@ D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\bin\Debug\nunit.f
 D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\bin\Debug\Ninject.xml
 D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\bin\Debug\nunit.framework.xml
 D:\TRAINING\MVC Projects\ProMVCFramework\ProductApp\ProductApp\obj\Debug\ProductApp.csprojResolveAssemblyReference.cache
+C:\myprojects\ProfesionalMVCFramework\ProductApp\ProductApp\bin\Debug\ProductApp.exe.config
+C:\myprojects\ProfesionalMVCFramework\ProductApp\ProductApp\obj\Debug\ProductApp.exe
+C:\myprojects\ProfesionalMVCFramework\ProductApp\ProductApp\obj\Debug\ProductApp.pdb
