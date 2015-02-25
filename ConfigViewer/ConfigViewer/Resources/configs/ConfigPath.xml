@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XmlPath>
+	<PublicWebSiteConfig>/Resources/data/xml/PublicWebsiteConfig.xml</PublicWebSiteConfig>
+	<Configuration>/Resources/data/xml/common/configurations.xml</Configuration>
+</XmlPath>

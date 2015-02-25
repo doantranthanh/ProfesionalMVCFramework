@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configs>
+  <common>
+    <ProductionMode>false</ProductionMode>
+    <WcfUrl>localhost:909</WcfUrl>
+    <WcfUserName>thanh</WcfUserName>
+    <WcfPassword>123</WcfPassword>
+    <CompanyName>XLN Telecom Ltd.</CompanyName>
+    <BuildingName>First Floor, Millbank Tower</BuildingName>
+    <StreetName>21-24 Millbank</StreetName>
+    <City>London</City>
+    <PostalCode>SW1P 4QP</PostalCode>
+  </common>
+  <xlntelecom>
+    <EnableLiveChat>true</EnableLiveChat>
+    <ChatPopupTimer>10000</ChatPopupTimer>
+    <ChatCookieExpirationDays>30</ChatCookieExpirationDays>
+    <RequireSecure>true</RequireSecure>
+    <CustomerServicePhoneNo>0844 880 7777</CustomerServicePhoneNo>
+    <DefaultSalesPhoneNo>0800 085 3152</DefaultSalesPhoneNo>
+    <AffCampaignQueryStringKey>clickref</AffCampaignQueryStringKey>
+    <AffCookieName>XLNAFFL</AffCookieName>
+    <AffCookieKey>affl</AffCookieKey>
+    <ChatAffiliateCookieName>XLNCHATAFFL</ChatAffiliateCookieName>
+    <ChatAffiliateCookieKey>ChatAffl</ChatAffiliateCookieKey>
+    <AffQueryStringKey>affl</AffQueryStringKey>
+    <AffCampaignCookieKey>CampaignCode</AffCampaignCookieKey>
+    <AffCookieSalesNumberKey>salesphone</AffCookieSalesNumberKey>
+    <AffCookieNameBusinessLogo>AFFLBANNER</AffCookieNameBusinessLogo>
+    <AffCookieBusinessLogoExpriationMinutes>30</AffCookieBusinessLogoExpriationMinutes>
+    <GoogleTagManagerId>GTM-KTPJ9F</GoogleTagManagerId>
+    <Domain>xln.xln</Domain>
+    <ChatId>Chat2651152099019462318</ChatId>
+    <ChatAidId>134262503241719848</ChatAidId>
+    <ChatCbId>3161028500749548422</ChatCbId>
+    <ChatWdId>2672384729616397958</ChatWdId>
+    <GoogleAnalyticId>UA-758778-1</GoogleAnalyticId>
+    <HttpsPages>/Resources/data/xml/https-pages.xml</HttpsPages>
+    <ChristianTweetApiKey>v8A5iLLaj2XipLfBxTXX2u5vG</ChristianTweetApiKey>
+    <ChristianTweetApiSecret>15dPSjqRWHUbohpAjmxs0zQ1A1OwpTXCTN0Kx2ifj4J3OQ9Rec</ChristianTweetApiSecret>
+    <ChristianTweetToken>2168857388-ep2W9gsjU686d3MVCEhQCrHVD39t5xeLMLTGa3q</ChristianTweetToken>
+    <ChristianTweetTokenSecret>S2xrcQAuODdJjCi7XceokqfmyUjtach462qUymiBJ95Do</ChristianTweetTokenSecret>
+    <XlnBusinessTweetApiKey>saU5DWeHe9t0mUL0vumCTlFyj</XlnBusinessTweetApiKey>
+    <XlnBusinessTweetApiSecret>OTZroZec5DBwgxGWCxuFvN35OxjlnP6CHMe7qOKDpZBYXMlORV</XlnBusinessTweetApiSecret>
+    <XlnBusinessTweetToken>97237133-Q0Eo6H7a4yQEUP0u1DO4QmgBYBr5tgfZb9McLWZRZ</XlnBusinessTweetToken>
+    <XlnBusinessTweetTokenSecret>HhgPYNtU0zu5BNY2ifdab2piWezWROv6sN9OyoIvNDZGY</XlnBusinessTweetTokenSecret>
+    <SalesNumberDynamicClasses>rTapNumber146114 fs-dynamic-number</SalesNumberDynamicClasses>
+    <WordpressConnectionString>server=localhost;user id=wp_user;Password=wp_555;persist security info=True;database=bizcommunity_wordpress_new</WordpressConnectionString>
+    <OfferEndDay>28</OfferEndDay>
+    <OfferEndSuperScript>th</OfferEndSuperScript>
+    <OfferEndMonth>February</OfferEndMonth>
+  </xlntelecom>
+  <signup>
+    <EnableLiveChat>true</EnableLiveChat>
+    <ChatPopupTimer>30000</ChatPopupTimer>
+    <WLR3GateWayTimeOut>30</WLR3GateWayTimeOut>
+    <DialogServicesRunningInParallel>false</DialogServicesRunningInParallel>
+    <RequireSecure>true</RequireSecure>
+    <DefaultSalesPhoneNo>0800 085 3152</DefaultSalesPhoneNo>
+    <AffCampaignQueryStringKey>clickref</AffCampaignQueryStringKey>
+    <AffCampaignCookieKey>CampaignCode</AffCampaignCookieKey>
+    <AffCookieBusinessLogoExpriationMinutes>30</AffCookieBusinessLogoExpriationMinutes>
+    <AffQueryStringKey>affl</AffQueryStringKey>
+    <CustomerServicePhoneNo>0844 880 7777</CustomerServicePhoneNo>
+    <DefaultTariffPlan>tt</DefaultTariffPlan>
+    <AffiliateCookieName>XLNAFFL</AffiliateCookieName>
+    <AffiliateCookieKey>affl</AffiliateCookieKey>
+    <ChatAffiliateCookieName>XLNCHATAFFL</ChatAffiliateCookieName>
+    <ChatAffiliateCookieKey>ChatAffl</ChatAffiliateCookieKey>
+    <AffiliateCampaignCookieKey>CampaignCode</AffiliateCampaignCookieKey>
+    <AffiliateCookieSalesNumberKey>salesphone</AffiliateCookieSalesNumberKey>
+    <AffiliateCookieNameBusinessLogo>AFFLBANNER</AffiliateCookieNameBusinessLogo>
+    <GoogleTagManagerId>GTM-KTPJ9F</GoogleTagManagerId>
+    <ChatId>Chat2651152099019462318</ChatId>
+    <ChatAidId>134262503241719848</ChatAidId>
+    <ChatCbId>3161028500749548422</ChatCbId>
+    <ChatWdId>2672384729616397958</ChatWdId>
+    <GoogleAnalyticId>UA-758778-1</GoogleAnalyticId>
+  </signup>
+  <quickpay>
+    <AffiliateCookieName>XLNAFFL</AffiliateCookieName>
+    <AffiliateCookieKey>affl</AffiliateCookieKey>
+    <AffiliateCookieSalesNumberKey>salesphone</AffiliateCookieSalesNumberKey>
+    <DefaultSalesPhoneNo>0800 085 3152</DefaultSalesPhoneNo>
+    <RequireSecure>true</RequireSecure>
+    <CustomerServicePhoneNo>0844 880 7777</CustomerServicePhoneNo>
+    <GoogleTagManagerId>GTM-KTPJ9F</GoogleTagManagerId>
+  </quickpay>
+  <cps>
+    <AffCookieName>XLNAFFL</AffCookieName>
+    <Domain>cps.xln</Domain>
+    <AffCookieKey>affl</AffCookieKey>
+    <AffQueryStringKey>affl</AffQueryStringKey>
+    <AffCampaignCookieKey>CampaignCode</AffCampaignCookieKey>
+    <AffCookieSalesNumberKey>salesphone</AffCookieSalesNumberKey>
+    <AffCookieNameBusinessLogo>AFFLBANNER</AffCookieNameBusinessLogo>
+    <AffCookieBusinessLogoExpriationMinutes>30</AffCookieBusinessLogoExpriationMinutes>
+    <AffCampaignQueryStringKey>clickref</AffCampaignQueryStringKey>
+    <DefaultSalesPhoneNo>0800 652 0159</DefaultSalesPhoneNo>
+    <EnableLiveChat>true</EnableLiveChat>
+    <CustomerServicePhoneNo>0844 880 9000</CustomerServicePhoneNo>
+    <ChatPopupTimer>10000</ChatPopupTimer>
+    <GoogleTagManagerId>GTM-KTPJ9F</GoogleTagManagerId>
+    <ChatCookieExpirationDays>30</ChatCookieExpirationDays>
+    <RequireSecure>false</RequireSecure>
+    <ChatAffiliateCookieName>XLNCHATAFFL</ChatAffiliateCookieName>
+    <ChatAffiliateCookieKey>ChatAffl</ChatAffiliateCookieKey>
+    <ChatId>Chat447524633399073635</ChatId>
+    <ChatAidId>134262503241719848</ChatAidId>
+    <ChatCbId>1847449697962168503</ChatCbId>
+    <ChatWdId>570006900328741707</ChatWdId>
+    <GoogleAnalyticId>UA-758778-13</GoogleAnalyticId>
+    <HttpsPages>/Resources/data/xml/cardprocessing/https-pages.xml</HttpsPages>
+    <SalesNumberDynamicClasses>rTapNumber147618</SalesNumberDynamicClasses>
+    <MobileSalesNumberDynamicClasses>rTapNumber155639</MobileSalesNumberDynamicClasses>
+  </cps>
+  <energy>
+    <AffCookieName>XLNAFFL</AffCookieName>
+    <Domain>energy.xln</Domain>
+    <AffCookieKey>affl</AffCookieKey>
+    <AffQueryStringKey>affl</AffQueryStringKey>
+    <AffCampaignCookieKey>CampaignCode</AffCampaignCookieKey>
+    <AffCookieSalesNumberKey>salesphone</AffCookieSalesNumberKey>
+    <AffCookieNameBusinessLogo>AFFLBANNER</AffCookieNameBusinessLogo>
+    <AffCookieBusinessLogoExpriationMinutes>30</AffCookieBusinessLogoExpriationMinutes>
+    <AffCampaignQueryStringKey>clickref</AffCampaignQueryStringKey>
+    <DefaultSalesPhoneNo>0808 178 2222</DefaultSalesPhoneNo>
+    <EnableLiveChat>true</EnableLiveChat>
+    <CustomerServicePhoneNo>0844 880 9000</CustomerServicePhoneNo>
+    <ChatPopupTimer>10000</ChatPopupTimer>
+    <GoogleTagManagerId>GTM-MBZDPT</GoogleTagManagerId>
+    <ChatCookieExpirationDays>30</ChatCookieExpirationDays>
+    <RequireSecure>false</RequireSecure>
+    <ChatAffiliateCookieName>XLNCHATAFFL</ChatAffiliateCookieName>
+    <ChatAffiliateCookieKey>ChatAffl</ChatAffiliateCookieKey>
+    <ChatId>Chat447524633399073635</ChatId>
+    <ChatAidId>134262503241719848</ChatAidId>
+    <ChatCbId>1847449697962168503</ChatCbId>
+    <ChatWdId>570006900328741707</ChatWdId>
+    <GoogleAnalyticId>UA-758778-13</GoogleAnalyticId>
+    <HttpsPages>/Resources/data/xml/energy/https-pages.xml</HttpsPages>
+    <SalesNumberDynamicClasses>rTapNumber147692 </SalesNumberDynamicClasses>
+    <MobileSalesNumberDynamicClasses>rTapNumber155639</MobileSalesNumberDynamicClasses>
+    <TelecomHostName>xln.xln</TelecomHostName>
+    <XLNGroupHostName>group.xln</XLNGroupHostName>
+    <CpsHostName>cps.xln</CpsHostName>
+  </energy>
+  <xlngroup>
+    <DefaultSalePhone>0800 085 3152</DefaultSalePhone>
+    <DefaultServicePhone>0844 880 7777</DefaultServicePhone>
+    <OldUrlRedirect>/Resources/data/xml/xlngroup/OldUrlsRedirects.xml</OldUrlRedirect>
+    <HostName>xln.xln</HostName>
+    <CpsHostName>cps.xln</CpsHostName>
+  </xlngroup>
+  <xlnjobs>
+    <SheffieldEmail>k.nguyen@xlntelecom.co.uk</SheffieldEmail>
+    <Domain>xln.xln</Domain>
+    <OldUrlRedirect>/Resources/data/xml/xlnjobs/OldUrlsRedirects.xml</OldUrlRedirect>
+    <EmailAttachementFolder>/Resources/EmailAttachments/</EmailAttachementFolder>
+    <JobHostName>jobs.xln</JobHostName>
+  </xlnjobs>
+  <admin>
+    <WwwConnectionString>Current Language=british;User ID=XLNCRM;Password=xln656;Initial Catalog=XLNTELECOM;Data Source=localhost\sql2012</WwwConnectionString>
+  </admin>
+  <xln_myaccount>
+    <CompanyShortDescription>XLN</CompanyShortDescription>
+    <LogoSrc>/_img/cheap-business-telecom-nav-logo.gif</LogoSrc>
+    <AllowPaymentMethodChange>true</AllowPaymentMethodChange>
+    <CSNumber>0844 880 7777</CSNumber>
+    <DefaultSalesPhoneNo>08081789226</DefaultSalesPhoneNo>
+    <CustomerServicePhoneNo>0844 880 7777</CustomerServicePhoneNo>
+    <AffiliateContactNumber>020 7793 5944</AffiliateContactNumber>
+    <AffiliateContactEmail>affiliates@xlntelecom.co.uk</AffiliateContactEmail>
+    <UnavailableUrl>~/XLN-Oops.aspx</UnavailableUrl>
+    <LoginText>Login or create a new account. Alternatively select one of our quick services to get things done without logging in. Use &lt;a href='/QuickPay'&gt;QuickPay&lt;/a&gt; if you don't want the hassle of loggin in - Now you can pay your account balance quicker and easier!</LoginText>
+    <EditDetailsSubtitle>Change your contact, payment or account details</EditDetailsSubtitle>
+    <MasterFile>~/DefaultXLN.Master"</MasterFile>
+    <AffiliateLoginPage>/MyAccount/Affiliates/Login.aspx</AffiliateLoginPage>
+    <GoogleAnalyticsAccount>UA-758778-1</GoogleAnalyticsAccount>
+    <XlnGoogleTagManagerId>GTM-KTPJ9F</XlnGoogleTagManagerId>
+    <AuthenticationVi>1234567890123456</AuthenticationVi>
+    <AuthenticationKey>12345678901234561234567890123456</AuthenticationKey>
+    <WebsiteBuilderUrl>https://admin.xlnwebsitebuilderstaging.com</WebsiteBuilderUrl>
+    <LoginDetailsCookieName>ld</LoginDetailsCookieName>
+    <LoginDetailsCookieCliKey>1</LoginDetailsCookieCliKey>
+    <LoginDetailsCookiePasswordKey>2</LoginDetailsCookiePasswordKey>
+  </xln_myaccount>
+  <obt_myaccount>
+    <ObtDomain>obt.*|onebill.*|webtest\.obt</ObtDomain>
+    <ObtDomainCms>onebilltelecom.co.uk|webcms\.obt|localhostcms\.obt|obtco\.xln</ObtDomainCms>
+    <CallMonitorEnabled>false</CallMonitorEnabled>
+    <CompanyShortDescription>Onebill</CompanyShortDescription>
+    <LogoSrc>/img/obt-logo.png</LogoSrc>
+    <AllowPaymentMethodChange>false</AllowPaymentMethodChange>
+    <CSNumber>0844 880 0444</CSNumber>
+    <DefaultSalesPhoneNo>08442250728</DefaultSalesPhoneNo>
+    <CustomerServicePhoneNo>0844 880 0444</CustomerServicePhoneNo>
+    <AffiliateContactNumber></AffiliateContactNumber>
+    <AffiliateContactEmail></AffiliateContactEmail>
+    <UnavailableUrl>~/OBT-Oops.aspx</UnavailableUrl>
+    <LoginText>Log into My Account using your phone number instead of your account number making it easier to remember.</LoginText>
+    <EditDetailsSubtitle>Change your contact or account details</EditDetailsSubtitle>
+    <MasterFile>~/DefaultOBT.Master</MasterFile>
+    <AffiliateLoginPage>/MyAccount/Affiliates/Login.aspx</AffiliateLoginPage>
+    <GoogleAnalyticsAccount>UA-758778-5</GoogleAnalyticsAccount>
+    <LoginDetailsCookieName>ld</LoginDetailsCookieName>
+    <LoginDetailsCookieCliKey>1</LoginDetailsCookieCliKey>
+    <LoginDetailsCookiePasswordKey>2</LoginDetailsCookiePasswordKey>
+  </obt_myaccount>
+</configs>

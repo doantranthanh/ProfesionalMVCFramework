@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1019]D:\00.Web Team\02.Projects\ConfigViewer\ConfigViewer.Test\bin\Debug\ConfigViewer.Test.dll</TopNode>
+  <SelectedNode>[0-1019]D:\00.Web Team\02.Projects\ConfigViewer\ConfigViewer.Test\bin\Debug\ConfigViewer.Test.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1019]D:\00.Web Team\02.Projects\ConfigViewer\ConfigViewer.Test\bin\Debug\ConfigViewer.Test.dll" Expanded="true" />
+    <Node UniqueName="[0-1020]ConfigViewer" Expanded="true" />
+    <Node UniqueName="[0-1021]ConfigViewer.Test" Expanded="true" />
+    <Node UniqueName="[0-1024]ConfigViewer.Test.ApplicationPool" Expanded="true" />
+    <Node UniqueName="[0-1017]ConfigViewer.Test.ApplicationPool.ApplicationPoolsEngine_Tests" Expanded="true" />
+    <Node UniqueName="[0-1023]ConfigViewer.Test.ConfigReader" Expanded="true" />
+    <Node UniqueName="[0-1004]ConfigViewer.Test.ConfigReader.XmlConfigReader_Tests" Expanded="true" />
+    <Node UniqueName="[0-1005]ConfigViewer.Test.ConfigReader.XmlConfigReader_Tests.Should_Get_Correct_Value_From_Section_With_Key" Expanded="true" />
+    <Node UniqueName="[0-1010]ConfigViewer.Test.ConfigReader.XmlConfigReader_Tests.Should_Load_Config_File_And_Set_Propeties_For_Common" Expanded="true" />
+    <Node UniqueName="[0-1012]ConfigViewer.Test.ConfigReader.XmlConfigReader_Tests.Should_Update_Element_Gratefully_Common_Section" Expanded="true" />
+    <Node UniqueName="[0-1014]ConfigViewer.Test.ConfigReader.XmlConfigReader_Tests.Should_Update_Element_Gratefully_Configuration_File" Expanded="true" />
+    <Node UniqueName="[0-1022]ConfigViewer.Test.Controller" Expanded="true" />
+    <Node UniqueName="[0-1001]ConfigViewer.Test.Controller.NavigationController_Tests" Expanded="true" />
+    <Node UniqueName="[0-1002]ConfigViewer.Test.Controller.NavigationController_Tests.Should_Return_The_List_Of_Menu" Expanded="true" />
+  </Nodes>
+</VisualState>

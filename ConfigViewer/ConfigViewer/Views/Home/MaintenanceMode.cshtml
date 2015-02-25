@@ -1,0 +1,39 @@
+﻿@model XlnConfiguration
+
+@{
+    ViewBag.Title = "Maintenance Mode";
+    ViewBag.MetaDescription = "Maintenance Mode";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var ajaxOpts = new AjaxOptions
+    {
+        LoadingElementId = "loading",
+        LoadingElementDuration = 5000,
+        Url = Url.Action("UpdateMaintenanceMode"),
+        Confirm = "Do you wish to update the existing xln config?",
+        OnSuccess = "ConfigurationSuccess"
+    };
+}
+
+<h2>Maintenance Mode</h2>
+
+<div id="loading">
+    <p>Updating Data...</p>
+</div>
+
+@using (Ajax.BeginForm(ajaxOpts))
+{
+    <table>
+        <tr>
+            <td>
+                @Html.LabelFor(m => m.MaintenanceMode)
+            </td>
+            <td>
+                @Html.CheckBoxFor(m => m.MaintenanceMode)
+            </td>
+        </tr>
+    </table>
+    <p>
+        <input type="submit" value="Update"/>     
+    </p>
+}
+

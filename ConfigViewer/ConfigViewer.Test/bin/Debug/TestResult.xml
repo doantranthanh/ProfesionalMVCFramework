@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="D:\00.Web Team\02.Projects\ConfigViewer\ConfigViewer.Test\bin\Debug\ConfigViewer.Test.dll" total="10" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-02-25" time="16:28:35">
+  <environment nunit-version="2.5.7.10213" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="D:\00.Web Team\02.Projects\ConfigViewer\ConfigViewer.Test\bin\Debug" machine-name="XLN414" user="Thanh Doan" user-domain="XLNTELECOM" />
+  <culture-info current-culture="en-GB" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="D:\00.Web Team\02.Projects\ConfigViewer\ConfigViewer.Test\bin\Debug\ConfigViewer.Test.dll" executed="True" result="Failure" success="False" time="1.034" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="ConfigViewer" executed="True" result="Failure" success="False" time="1.024" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="1.023" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="ApplicationPool" executed="True" result="Success" success="True" time="0.429" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="ApplicationPoolsEngine_Tests" executed="True" result="Success" success="True" time="0.422" asserts="0">
+                    <results>
+                      <test-case name="ConfigViewer.Test.ApplicationPool.ApplicationPoolsEngine_Tests.Should_Return_List_Of_Application_Pools_From_IIS" executed="True" result="Success" success="True" time="0.408" asserts="2" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="ConfigReader" executed="True" result="Success" success="True" time="0.242" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="XmlConfigReader_Tests" executed="True" result="Success" success="True" time="0.242" asserts="0">
+                    <results>
+                      <test-suite type="ParameterizedTest" name="Should_Get_Correct_Value_From_Section_With_Key" executed="True" result="Success" success="True" time="0.175" asserts="0">
+                        <results>
+                          <test-case name="ConfigViewer.Test.ConfigReader.XmlConfigReader_Tests.Should_Get_Correct_Value_From_Section_With_Key(&quot;common&quot;,&quot;WcfUserName&quot;,&quot;thanh&quot;)" executed="True" result="Success" success="True" time="0.164" asserts="2" />
+                          <test-case name="ConfigViewer.Test.ConfigReader.XmlConfigReader_Tests.Should_Get_Correct_Value_From_Section_With_Key(&quot;common&quot;,&quot;WcfPassword&quot;,&quot;123&quot;)" executed="True" result="Success" success="True" time="0.005" asserts="2" />
+                          <test-case name="ConfigViewer.Test.ConfigReader.XmlConfigReader_Tests.Should_Get_Correct_Value_From_Section_With_Key(&quot;common&quot;,&quot;ProductionMode&quot;,&quot;false&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                          <test-case name="ConfigViewer.Test.ConfigReader.XmlConfigReader_Tests.Should_Get_Correct_Value_From_Section_With_Key(&quot;common&quot;,&quot;WcfUrl&quot;,&quot;localhost&quot;)" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="ParameterizedTest" name="Should_Load_Config_File_And_Set_Propeties_For_Common" executed="True" result="Success" success="True" time="0.028" asserts="0">
+                        <results>
+                          <test-case name="ConfigViewer.Test.ConfigReader.XmlConfigReader_Tests.Should_Load_Config_File_And_Set_Propeties_For_Common(ConfigViewer.Domain.Entities.XlnConfigCommon,&quot;common&quot;)" executed="True" result="Success" success="True" time="0.028" asserts="9" />
+                        </results>
+                      </test-suite>
+                      <test-case name="ConfigViewer.Test.ConfigReader.XmlConfigReader_Tests.Should_Return_List_Of_First_Child_Nodes" executed="True" result="Success" success="True" time="0.005" asserts="3" />
+                      <test-suite type="ParameterizedTest" name="Should_Update_Element_Gratefully_Common_Section" executed="True" result="Success" success="True" time="0.007" asserts="0">
+                        <results>
+                          <test-case name="ConfigViewer.Test.ConfigReader.XmlConfigReader_Tests.Should_Update_Element_Gratefully_Common_Section&lt;RuntimeType&gt;(ConfigViewer.Domain.Entities.XlnConfigCommon,&quot;configs&quot;,&quot;common&quot;,&quot;PostalCode&quot;,&quot;SW11 2SE&quot;)" executed="True" result="Success" success="True" time="0.007" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="ParameterizedTest" name="Should_Update_Element_Gratefully_Configuration_File" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                        <results>
+                          <test-case name="ConfigViewer.Test.ConfigReader.XmlConfigReader_Tests.Should_Update_Element_Gratefully_Configuration_File&lt;RuntimeType&gt;(ConfigViewer.Domain.Entities.XlnConfiguration,&quot;PublicWebsite&quot;,&quot;MaintenanceMode&quot;,&quot;MaintenanceMode&quot;,True)" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+              <test-suite type="Namespace" name="Controller" executed="True" result="Failure" success="False" time="0.340" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="HomeController_Tets" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+                  <test-suite type="TestFixture" name="NavigationController_Tests" executed="True" result="Failure" success="False" time="0.338" asserts="0">
+                    <results>
+                      <test-suite type="ParameterizedTest" name="Should_Return_The_List_Of_Menu" executed="True" result="Failure" success="False" time="0.249" asserts="0">
+                        <results>
+                          <test-case name="ConfigViewer.Test.Controller.NavigationController_Tests.Should_Return_The_List_Of_Menu(&quot;configs&quot;,&quot;PublicWebsites&quot;)" executed="True" result="Error" success="False" time="0.248" asserts="0">
+                            <failure>
+                              <message><![CDATA[System.ArgumentNullException : Value cannot be null.
+Parameter name: source]]></message>
+                              <stack-trace><![CDATA[at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at ConfigViewer.Controllers.NavigationController.Menu() in D:\00.Web Team\02.Projects\ConfigViewer\ConfigViewer\Controllers\NavigationController.cs:line 23
+at ConfigViewer.Test.Controller.NavigationController_Tests.Should_Return_The_List_Of_Menu(String configs, String configurations) in D:\00.Web Team\02.Projects\ConfigViewer\ConfigViewer.Test\Controller\NavigationController_Tests.cs:line 43
+]]></stack-trace>
+                            </failure>
+                          </test-case>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

@@ -9,7 +9,19 @@
     function OnBegin() {
         alert("This is the OnBegin Callback");
     }
+    
     function OnSuccess(data) {
+        alert("This is the OnSuccessCallback: " + data);
+    }
+
+    function OnFailure(request, error) {
+        alert("This is the OnFailure Callback:" + error);
+    }
+    function OnComplete(request, status) {
+        alert("This is the OnComplete Callback: " + status);
+    }
+
+    function OnSuccessJson(data) {
         var target = $('#tabledata');
         target.empty();
         for (var i = 0; i < data.length; i++) {
@@ -17,12 +29,7 @@
             + data[i].Date + '</td></tr>');
         }
     }
-    function OnFailure(request, error) {
-        alert("This is the OnFailure Callback:" + error);
-    }
-    function OnComplete(request, status) {
-        alert("This is the OnComplete Callback: " + status);
-    }
+
     </script>
 
 </head>

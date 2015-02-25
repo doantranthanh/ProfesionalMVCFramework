@@ -1,0 +1,107 @@
+﻿@model XlnConfigCommon
+
+@{
+    ViewBag.Title = "Common Section";
+    ViewBag.MetaDescription = "Common Section";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var ajaxOpts = new AjaxOptions
+    {
+        LoadingElementId = "loading",
+        LoadingElementDuration = 5000,
+        Url = Url.Action("UpdateCommon"),
+        Confirm = "Do you wish to update the existing xln config?",
+        OnSuccess = "CommonSuccess",
+    };
+}
+
+<h2>Common Section</h2>
+
+
+<div id="loading">
+    <p>Updating Data...</p>
+</div>
+
+
+@using (Ajax.BeginForm(ajaxOpts))
+{
+    <table>
+        <tbody id="tableCommon">
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.ProductionMode)
+                </td>
+                <td>
+                    @Html.CheckBoxFor(m => m.ProductionMode)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.WcfUrl)
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.WcfUrl)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.WcfUserName)
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.WcfUserName)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.WcfPassword)
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.WcfPassword)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.CompanyName)
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.CompanyName)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.BuildingName)
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.BuildingName)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.StreetName)
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.StreetName)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.City)
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.City)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(m => m.PostalCode)
+                </td>
+                <td>
+                    @Html.TextBoxFor(m => m.PostalCode)
+                </td>
+            </tr>
+        </tbody>     
+    </table>
+     <p>
+        <input type="submit" value="Update"/>     
+    </p>
+}
+

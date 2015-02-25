@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")   
+    @Styles.Render("~/bundles/main")
+</head>
+    <body class="no-js">
+        <div>
+            @{Html.RenderAction("Menu", "Navigation");}
+        </div>
+        <div>
+            @RenderBody()
+        </div>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/jqueryval")
+        @Scripts.Render("~/bundles/modernizr")         
+        @RenderSection("scripts", required: false)
+        @Scripts.Render("~/bundles/application")              
+    </body>
+</html>

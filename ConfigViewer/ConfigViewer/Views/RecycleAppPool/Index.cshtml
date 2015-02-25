@@ -1,0 +1,32 @@
+﻿@using Elmah
+@model XlnMainSection
+@{
+    ViewBag.Title = "Recycle Application Pool";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var rycleOpts = new AjaxOptions
+    {
+        LoadingElementId = "rycling",
+        LoadingElementDuration = 50000,
+        Url = Url.Action("RycycleAppPool"),
+        Confirm = "Do you wish to recycle the application pool?",
+        OnSuccess = "RecycleSuccess"
+    };
+}
+
+<h2>Recycle Application Pool</h2>
+
+<div id="rycling">
+    <p>Recycling....</p>
+</div>
+
+@using (Ajax.BeginForm(rycleOpts))
+{
+    @Html.DropDownList("appPoolName", new SelectList(Model.ApplicationPools, Model))
+    <p>
+        <input type="submit" value="Recycle"/>     
+    </p>
+}
+
+<div id="success">
+    <p>Recycling successfully</p>
+</div>

@@ -49,3 +49,30 @@
     })
     </div>
 }
+
+<br/>
+
+@foreach (string str in new[] { "All", "Joe", "Jane", "Bob" })
+{
+    <div style="margin-right:5px; float:left">
+        @Ajax.ActionLink(str, "Index", new { id = str },
+        new AjaxOptions
+        {        
+            LoadingElementId = "loading",
+            Url = Url.Action("JsonData", new { id = str }),
+            OnSuccess = "OnSuccessJson"         
+        })
+    </div>
+}
+
+
+@*<script type="text/javascript">
+    function OnSuccess(data) {
+            var target = $('#tabledata');
+            target.empty();
+            for (var i = 0; i < data.length; i++) {
+            target.append('<tr><td>' + data[i].ClientName + '</td><td>'
+            + data[i].Date + '</td></tr>');
+        }
+    }
+</script>*@

@@ -1,0 +1,35 @@
+﻿@model XlnMainSection
+
+@{
+    Layout = null;
+}
+
+<nav id="topNav"> 
+    <ul>
+        <li>
+            @Html.ActionLink("Public Website", "Index", "Home") 
+            <ul>
+                @foreach (var section in Model.PublicWebsiteSections)
+                {
+                    <li>                     
+                        @Html.ActionLink(section.UpperFirstLetter(), section.UpperFirstLetter(), "Home")
+                    </li>  
+                }      
+            </ul>            
+        </li>
+        <li>
+            @Html.ActionLink("Configuration", "Index", "Home") 
+            <ul>
+                @foreach (var section in Model.ConfigurationSections)
+                {
+                    <li>                     
+                        @Html.ActionLink(section.UpperFirstLetter(), section.UpperFirstLetter(), "Home")
+                    </li>  
+                }      
+            </ul>            
+        </li>
+        <li>
+            @Html.ActionLink("Recycle Application Pools", "Index", "RecycleAppPool")              
+        </li>
+    </ul>
+</nav>
